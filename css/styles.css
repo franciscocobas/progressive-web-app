@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #009688;
+}
+
+nav ol {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+nav ol li {
+  margin: 1em 2em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+main {
+  background-color: #d0d0d0;
+  font-size: 1.1em;
+  padding: 2em;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #345a35;
+}
+
+main p {
+  line-height: 1.5;
+}

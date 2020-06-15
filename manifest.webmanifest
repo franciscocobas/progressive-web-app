@@ -1,0 +1,31 @@
+{
+  "short_name": "PWA App",
+  "name": "PWA App",
+  "description": "App to show how PWA works",
+  "icons": [
+    {
+      "src": "/images/pwa-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/pwa-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#E74C3C",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#E74C3C",
+  "shortcuts": [
+    {
+      "name": "Who we are?",
+      "short_name": "About",
+      "description": "This is all about our team",
+      "url": "/about.html",
+      "icons": [{ "src": "/images/pwa-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
